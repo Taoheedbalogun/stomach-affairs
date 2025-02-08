@@ -5,8 +5,8 @@ import "../styles/hero.css";
 
 const Hero = () => {
   return (
-    <div class="hero-container">
-      <div class="hero-content">
+    <div className="hero-container">
+      <div className="hero-content">
         <h1>Delicious Food & Snacks Delivered to You</h1>
         <p>Order your favorite meals and snacks from the best in town</p>
         <button className="cta-button">
@@ -14,8 +14,8 @@ const Hero = () => {
         </button>
       </div>
 
-      <div class="image-holder">
-        <div class="image-viewer">
+      <div className="image-holder">
+        <div className="image-viewer">
           <img src={food1} className="food1" />
         </div>
       </div>

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "1",
+    "image": "arrangedBChips.jpg",
+    "name": "Mighty Burger",
+    "price": "8$",
+    "about": "Served with fires and drinks"
+  },
+  {
+    "id": "2",
+    "image": "chinchin.jpg",
+    "name": "Chickpae's salad",
+    "price": "4$",
+    "about": "Served with fires and drinks"
+  },
+  {
+    "id": "3",
+    "image": "smallChops.jpg",
+    "name": "Chickpae's wrap",
+    "price": "3$",
+    "about": "Served with fires and drinks"
+  },
+  {
+    "id": "4",
+    "image": "packedBottledChips.jpg",
+    "name": "Chickpae's wrap",
+    "price": "3$",
+    "about": "Served with fires and drinks"
+  },
+  {
+    "id": "5",
+    "image": "servedPuff.jpg",
+    "name": "Chickpae's wrap",
+    "price": "3$",
+    "about": "Served with fires and drinks"
+  },
+  {
+    "id": "6",
+    "image": "smokedFish.jpg",
+    "name": "Chickpae's wrap",
+    "price": "3$",
+    "about": "Served with fires and drinks"
+  },
+  {
+    "id": "7",
+    "image": "meatpie.jpg",
+    "name": "Chickpae's wrap",
+    "price": "3$",
+    "about": "Served with fires and drinks"
+  },
+  {
+    "id": "8",
+    "image": "meats.jpg",
+    "name": "Chickpae's wrap",
+    "price": "3$",
+    "about": "Served with fires and drinks"
+  },
+  {
+    "id": "9",
+    "image": "packedNchips.jpg",
+    "name": "Chickpae's wrap",
+    "price": "3$",
+    "about": "Served with fires and drinks"
+  },
+  {
+    "id": "10",
+    "image": "packedTakeAway.jpg",
+    "name": "Chickpae's wrap",
+    "price": "3$",
+    "about": "Served with fires and drinks"
+  },
+  {
+    "id": "11",
+    "image": "singlebChips.jpg",
+    "name": "Chickpae's wrap",
+    "price": "3$",
+    "about": "Served with fires and drinks"
+  },
+  {
+    "id": "12",
+    "image": "smokedFish.jpg",
+    "name": "Chickpae's wrap",
+    "price": "3$",
+    "about": "Served with fires and drinks"
+  },
+  {
+    "id": "13",
+    "image": "singlechips.jpg",
+    "name": "Chickpae's wrap",
+    "price": "3$",
+    "about": "Served with fires and drinks"
+  },
+  {
+    "id": "14",
+    "image": "driedchips.jpg",
+    "name": "Chickpae's wrap",
+    "price": "3$",
+    "about": "Served with fires and drinks"
+  },
+  {
+    "id": "15",
+    "image": "limeJuice.jpg",
+    "name": "Chickpae's wrap",
+    "price": "3$",
+    "about": "Served with fires and drinks"
+  },
+  {
+    "id": "16",
+    "image": "IMG-20250206-WA0116.jpg",
+    "name": "Chickpae's wrap",
+    "price": "3$",
+    "about": "Served with fires and drinks"
+  }
+]
