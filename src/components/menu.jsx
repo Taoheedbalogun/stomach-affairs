@@ -5,21 +5,21 @@ import data1 from "../data1.json";
 const Menu = () => {
   return (
     <div className="menu-container">
-      <div className="content">
-        <h1 className="title">Menu</h1>
-        <p className="sub">Explore Our Best Food</p>
-        <p className="desc">Below you can see our best selling meals!</p>
+      <div className="menu-content">
+        <h1 className="menu-title">Menu</h1>
+        <p className="menu-sub">Explore Our Best Food</p>
+        <p className="menu-desc">Below you can see our best selling meals!</p>
       </div>
 
-      <div className="section">
+      <div className="menu-section">
         {data1.map(({ image, name, price, about, id }) => (
-          <div key={id} className="card">
-            <img src={image} className="image" />
-            <div className="items">
-              <div className="name">{name}</div>
-              <div className="price">{price}</div>
+          <div key={id} className="menu-card">
+            <img src={image} className="menu-image" />
+            <div className="menu-items">
+              <div className="menu-name">{name}</div>
+              <div className="menu-price">{price}</div>
             </div>
-            <div className="about">{about}</div>
+            <div className="menu-about">{about}</div>
           </div>
         ))}
       </div>
@@ -28,3 +28,68 @@ const Menu = () => {
 };
 
 export default Menu;
+
+//   {
+//     "id": "4",
+//     "image": "packedBottledChips.jpg",
+//     "name": "Chickpae's wrap",
+//     "price": "3$",
+//     "about": "Served with fires and drinks"
+//   },
+//   {
+//     "id": "5",
+//     "image": "servedPuff.jpg",
+//     "name": "Chickpae's wrap",
+//     "price": "3$",
+//     "about": "Served with fires and drinks"
+//   },
+//   {
+//     "id": "6",
+//     "image": "smokedFish.jpg",
+//     "name": "Chickpae's wrap",
+//     "price": "3$",
+//     "about": "Served with fires and drinks"
+//   },
+//   {
+//     "id": "7",
+//     "image": "meatpie.jpg",
+//     "name": "Chickpae's wrap",
+//     "price": "3$",
+//     "about": "Served with fires and drinks"
+//   },
+//   {
+//     "id": "8",
+//     "image": "meats.jpg",
+//     "name": "Chickpae's wrap",
+//     "price": "3$",
+//     "about": "Served with fires and drinks"
+//   },
+//   {
+//     "id": "9",
+//     "image": "packedNchips.jpg",
+//     "name": "Chickpae's wrap",
+//     "price": "3$",
+//     "about": "Served with fires and drinks"
+//   },
+//   {
+//     "id": "10",
+//     "image": "packedTakeAway.jpg",
+//     "name": "Chickpae's wrap",
+//     "price": "3$",
+//     "about": "Served with fires and drinks"
+//   },
+//   {
+//     "id": "11",
+//     "image": "singlebChips.jpg",
+//     "name": "Chickpae's wrap",
+//     "price": "3$",
+//     "about": "Served with fires and drinks"
+//   },
+//   {
+//     "id": "12",
+//     "image": "smokedFish.jpg",
+//     "name": "Chickpae's wrap",
+//     "price": "3$",
+//     "about": "Served with fires and drinks"
+//   }
+// ]
