@@ -3,6 +3,7 @@ import Header from "./components/header";
 import Hero from "./components/hero";
 import Menu from "./components/menu";
 import About from "./components/about";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Menu />
       <About />
+      <Footer />
     </div>
   );
 }
