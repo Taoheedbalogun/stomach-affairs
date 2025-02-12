@@ -3,6 +3,7 @@ import Header from "./components/header";
 import Hero from "./components/hero";
 import Menu from "./components/menu";
 import About from "./components/about";
+import Contact from "./components/contact";
 import Footer from "./components/footer";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Menu />
       <About />
+      <Contact />
       <Footer />
     </div>
   );

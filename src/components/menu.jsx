@@ -4,7 +4,7 @@ import data1 from "../data1.json";
 
 const Menu = () => {
   return (
-    <div className="menu-container">
+    <div id="menu" className="menu-container">
       <div className="menu-content">
         <h1 className="menu-title">Menu</h1>
         <p className="menu-sub">Explore Our Best Food</p>

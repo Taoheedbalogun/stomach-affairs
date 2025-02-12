@@ -3,9 +3,9 @@ import food1 from "../assets/food1.jpg";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import "../styles/about.css";
 
-const Component2 = () => {
+const About = () => {
   return (
-    <div className="about-container">
+    <div id="about" className="about-container">
       <div className="about-imageHolder">
         <div className="about-imageViewer">
           <img src={food1} className="about-image" />
@@ -30,4 +30,4 @@ const Component2 = () => {
   );
 };
 
-export default Component2;
+export default About;

@@ -6,46 +6,38 @@ import "../styles/footer.css";
 
 const Footer = () => {
   return (
-    <div className="container">
-      <div className="wrapper">
-        <div className="box">
-          <div className="time">Today 12pm - 9pm</div>
-          <div className="note">Working Hours</div>
-        </div>
-        <div className="box">
-          <div className="time">Piastowska 4, Cracow</div>
-          <div className="note">Find us</div>
-        </div>
-        <div className="box">
-          <div className="time">503 204 176</div>
-          <div className="note">Call to Us</div>
-        </div>
-        <div className="image-holder">
-          <div className="image-viewer">
-            <div className="image-wrapper">
-              <img src={logo} className="image" />
-            </div>
+    <div id="footer" className="footer-container">
+      <div className="footer-image-holder">
+        <div className="footer-image-viewer">
+          <div className="footer-image-wrapper">
+            <img src={logo} className="footer-image" />
           </div>
         </div>
-        <div className="navigation">
-          <div className="nav">
-            <span className="nav-list">About us</span>
-            <a>
-              <FaFacebook className="icon" />
-            </a>
-          </div>
-          <div className="nav">
-            <span className="nav-list">Menu</span>
-            <a>
-              <FaTwitter className="icon" />
-            </a>
-          </div>
-          <div className="nav">
-            <span className="nav-list">Contact</span>
-            <a>
-              <FaInstagram className="icon" />
-            </a>
-          </div>
+      </div>
+      <div className="footer-navigation">
+        <div className="footer-nav">
+          <span href="about" className="footer-nav-list">
+            About us
+          </span>
+          <a href="https://web.facebook.com/taoheed.balogun/" target="_blank">
+            <FaFacebook className="footer-icon" />
+          </a>
+        </div>
+        <div className="footer-nav">
+          <span href="menu" className="footer-nav-list">
+            Menu
+          </span>
+          <a href="">
+            <FaTwitter className="footer-icon" />
+          </a>
+        </div>
+        <div className="footer-nav">
+          <span href="contact" className="footer-nav-list">
+            Contact
+          </span>
+          <a href="">
+            <FaInstagram className="footer-icon" />
+          </a>
         </div>
       </div>
     </div>
