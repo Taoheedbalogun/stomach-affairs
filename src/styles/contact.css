@@ -1,0 +1,40 @@
+.contact-container {
+  width: 100%;
+  padding-top: 50px;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 350px;
+  height: 170px;
+  border-radius: 80px;
+  background-color: white;
+  margin: 40px 25px;
+  outline: none;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 10px 1px rgb(91, 119, 211);
+
+  align-items: center;
+  justify-content: center;
+  transition: all 1ms;
+  transform: scale(1);
+}
+
+.box:hover {
+  transform: scale(1.02);
+}
+
+.time {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.note {
+  font-size: 18px;
+}
